@@ -1,0 +1,6 @@
+{
+    "name": "mod1",
+    "exports": {
+        ".": "./dist/index.js"
+    }
+}

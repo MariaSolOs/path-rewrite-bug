@@ -1,0 +1,9 @@
+{
+    "name": "mod3",
+    "exports": {
+        ".": "./dist/index.js"
+    },
+    "dependencies": {
+        "mod2": "workspace:*"
+    }
+}

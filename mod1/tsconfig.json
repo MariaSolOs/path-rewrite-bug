@@ -1,0 +1,25 @@
+{
+    "include": ["index.ts"],
+    "compilerOptions": {
+        "composite": true,
+        "declaration": true,
+        "declarationMap": true,
+        "downlevelIteration": true,
+        "emitDeclarationOnly": true,
+        "importHelpers": true,
+        "incremental": true,
+        "isolatedModules": true,
+        "module": "esnext",
+        "moduleResolution": "bundler",
+        "moduleDetection": "force",
+        "noEmit": false,
+        "noImplicitAny": true,
+        "outDir": "dist",
+        "skipLibCheck": false,
+        "sourceMap": true,
+        "strict": true,
+        "target": "es2019",
+        "noUncheckedIndexedAccess": true,
+    }
+}
+
