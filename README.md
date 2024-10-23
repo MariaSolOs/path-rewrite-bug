@@ -25,6 +25,6 @@ export declare const getFoo: () => import("mod2").Foo;
 -export declare const getFoo: () => import("mod1").Foo;
 +export declare const getFoo: () => import("mod2").Foo;
  //# sourceMappingURL=index.d.ts.map
- ```
+```
 
- Because `mod3` has an invalid `index.d.ts`, `mod4` fails compilation when doing a lib check of `mod3`'s type declaration files.
+Because `mod3` has an invalid `index.d.ts`, `mod4` fails compilation when doing a lib check of `mod3`'s type declaration files.

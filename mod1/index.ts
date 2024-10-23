@@ -1,3 +1,3 @@
 export interface Foo {
-    foo: string;
+  foo: string;
 }

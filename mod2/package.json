@@ -1,15 +1,15 @@
 {
-    "name": "mod2",
-    "exports": {
-        ".": {
-            "types": "./dist/index.d.ts",
-            "default": "./dist/index.js"
-        }
-    },
-    "dependencies": {
-        "mod1": "workspace:*"
-    },
-    "scripts": {
-        "compile": "tsc -p tsconfig.json"
+  "name": "mod2",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
     }
+  },
+  "dependencies": {
+    "mod1": "workspace:*"
+  },
+  "scripts": {
+    "compile": "tsc -p tsconfig.json"
+  }
 }

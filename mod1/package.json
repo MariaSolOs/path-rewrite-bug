@@ -1,12 +1,12 @@
 {
-    "name": "mod1",
-    "exports": {
-        ".": {
-            "types": "./dist/index.d.ts",
-            "default": "./dist/index.js"
-        }
-    },
-    "scripts": {
-        "compile": "tsc -p tsconfig.json"
+  "name": "mod1",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
     }
+  },
+  "scripts": {
+    "compile": "tsc -p tsconfig.json"
+  }
 }

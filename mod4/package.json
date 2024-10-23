@@ -1,16 +1,16 @@
 {
-    "name": "mod4",
-    "exports": {
-        ".": {
-            "types": "./dist/index.d.ts",
-            "default": "./dist/index.js"
-        }
-    },
-    "dependencies": {
-        "mod2": "workspace:*",
-        "mod3": "workspace:*"
-    },
-    "scripts": {
-        "compile": "tsc -p tsconfig.json"
+  "name": "mod4",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
     }
+  },
+  "dependencies": {
+    "mod2": "workspace:*",
+    "mod3": "workspace:*"
+  },
+  "scripts": {
+    "compile": "tsc -p tsconfig.json"
+  }
 }
