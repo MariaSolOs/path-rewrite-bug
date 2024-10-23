@@ -7,7 +7,6 @@
     }
   },
   "dependencies": {
-    "mod2": "workspace:*",
     "mod3": "workspace:*"
   },
   "scripts": {

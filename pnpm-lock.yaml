@@ -28,9 +28,6 @@ importers:
 
   mod4:
     dependencies:
-      mod2:
-        specifier: workspace:*
-        version: link:../mod2
       mod3:
         specifier: workspace:*
         version: link:../mod3
