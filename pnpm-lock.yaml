@@ -26,6 +26,15 @@ importers:
         specifier: workspace:*
         version: link:../mod2
 
+  mod4:
+    dependencies:
+      mod2:
+        specifier: workspace:*
+        version: link:../mod2
+      mod3:
+        specifier: workspace:*
+        version: link:../mod3
+
 packages:
 
   typescript@5.6.3:
