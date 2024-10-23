@@ -5,7 +5,7 @@
     "declaration" : true,
     "declarationMap" : true,
     "downlevelIteration" : true,
-    "emitDeclarationOnly" : true,
+    "emitDeclarationOnly" : false,
     "experimentalDecorators" : true,
     "importHelpers" : true,
     "incremental" : true,

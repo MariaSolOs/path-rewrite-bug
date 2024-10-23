@@ -1,1 +1,3 @@
-export const foo = () => console.log("foo!");
+export interface Foo {
+    foo: string;
+}

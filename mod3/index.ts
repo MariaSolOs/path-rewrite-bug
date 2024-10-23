@@ -1,3 +1,3 @@
-import { foo } from "mod2";
+import { createFoo } from "mod2";
 
-foo()
+export const getFoo = () => createFoo("foo");

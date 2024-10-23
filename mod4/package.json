@@ -1,5 +1,5 @@
 {
-    "name": "mod2",
+    "name": "mod4",
     "exports": {
         ".": {
             "types": "./dist/index.d.ts",
@@ -7,7 +7,8 @@
         }
     },
     "dependencies": {
-        "mod1": "workspace:*"
+        "mod2": "workspace:*",
+        "mod3": "workspace:*"
     },
     "scripts": {
         "compile": "tsc -p tsconfig.json"
